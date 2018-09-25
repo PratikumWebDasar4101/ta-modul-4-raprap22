@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>	</title>
+</head>
+<body>
+	<center>
+		<table>
+			<form  action="prosform.php" method="POST">
+				<tr>
+					<td>Keranjang</td>
+					<td>Jenis Pengiriman</td>					
+				</tr>
+				<tr>
+					<td><input type="checkbox" name="keranjang[]" value="Kemeja">Kemeja = Rp. 200.000</td>
+					<td><input type="radio" name="jenpeng" value="TIKI">TIKI = Rp. 8.000</td>
+				</tr>
+				<tr>
+					<td><input type="checkbox" name="keranjang[]" value="Kaos Kaki">Kaos Kaki = Rp. 30.000</td>
+					<td><input type="radio" name="jenpeng" value="JNE">JNE = Rp. 12.000</td>
+				</tr>
+				<tr>
+					<td><input type="checkbox" name="keranjang[]" value="Jam Tangan">Jam Tangan = Rp. 50.000</td>
+					<td><input type="radio" name="jenpeng" value="JNT">JNT = Rp. 15.000</td>
+				</tr>
+				<tr>
+					<td><input type="checkbox" name="keranjang[]" value="Celana Chino">Celana Chino = Rp. 250.000</td>
+				</tr>
+				<tr>
+					<td><input type="checkbox" name="keranjang[]" value="Celana Jeans">Celana Jeans = Rp. 250.000</td>
+				</tr>
+				<tr>
+					<td colspan="2" align="center">Alamat: <input type="text" name="alamat"></td>
+				</tr>
+				<tr align="center">
+					<td colspan="2"><br><input type="submit" name="submit" value="Kirim"></td>
+				</tr>
+			</form>
+		</table>
+	</center>
+</body>
+</html>
